@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p {
+    color: #999999;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+.margintop-lg {
+    margin-top: 60px;
+}
+.margintop-md {
+    margin-top: 30px;
+}
+.margintop-sm {
+    margin-top: 15px;
+}
+
+
+/* Bottoms */
+
+.button-2 {
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+
+.button-2::after {
+    transition: all .6s ease;
+    content: '';
+    display: block;
+    height: 3px;
+    background: rgb(17, 75, 236);
+    bottom: 2px;
+    left: 0;
+    position: absolute;
+    width: 0;
+  }
+
+  .button-2:hover::after {
+    width: 100%;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+}
+/* Bottoms */
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+
+/* Logo */
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+/* Navbar */
+
+
+/* Hero */
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    padding-top: 190px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    
+}
+
+#hero ion-icon {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+/* Hero */
+
+
+/* MediaQuery */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 40px !important;
+        line-height: normal !important;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+
+/* MediaQuery */
