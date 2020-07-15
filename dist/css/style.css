@@ -9,6 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    padding: 120px 0;
+}
 
 
 h1 {
@@ -23,7 +26,6 @@ p {
     line-height: 1.8;
     margin-bottom: 0;
 }
-
 
 .margintop-lg {
     margin-top: 60px;
@@ -106,7 +108,7 @@ p {
 /* Hero */
 
 #hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(/dist/images/bg/hero.jpg);
     background-size: cover;
     padding-top: 190px;
     min-height: 700px;
@@ -129,8 +131,55 @@ p {
     margin-left: 5px;
 }
 
-/* Hero */
+/* Porfolio */
 
+.porfolio-details a{
+    text-decoration: none;
+}
+
+#porfolio h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.porfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.porfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.porfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+}
+
+.porfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.porfolio-details a h2, .porfolio-details a p{
+    color: #ffffff !important;
+}
+
+
+/* About Us */
+
+#aboutus {
+    background-color: #f5f5f5;
+}
 
 /* MediaQuery */
 
