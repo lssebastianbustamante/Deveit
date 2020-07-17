@@ -181,6 +181,142 @@ p {
     background-color: #f5f5f5;
 }
 
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details h5 {
+    margin-bottom: 0;
+}
+
+.member-details {
+    position: absolute;
+    color: #f5f5f5;
+    bottom: 0;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details ion-icon {
+    padding: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.member-details ion-icon:hover{
+    color: rgba(17, 122, 221, 0.932);
+}
+
+
+/* Pricing */
+
+.pricing-container{
+    margin: 15px 0;
+}
+
+.plan {
+    padding: 50px 80px;
+    border-radius: 2px;
+}
+
+.plan h2 {
+    font-size: 70px;
+    font-weight: 600px;
+}
+
+.plan span {
+    font-size: 20px;
+}
+
+.plan ul{
+    list-style: square;
+}
+
+.light {
+    background-color: #ffffff;
+    border: solid 2px #1a1a1a;
+}
+
+.dark {
+    background-color: #1a1a1a;
+    border: solid 2px #1a1a1a;
+    color: #ffffff;
+}
+
+.button-dark {
+    background-color: #1a1a1a;
+    border: solid 2px #1a1a1a;
+    color: #ffffff;
+}
+
+.button-dark:hover {
+    background-color: #ffffff;
+    border: solid 2px #1a1a1a;
+    color: #000000;
+    transition: all 0.5s;
+
+}
+
+.button-light {
+    background-color: #1a1a1a;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+}
+
+.button-light:hover {
+    background-color: #ffffff;
+    border: solid 2px #ffffff;
+    color: #1a1a1a;
+    transition: all 0.5s;
+
+}
+
+   /* Carousel */
+
+   .carousel {
+    min-width: 240px;
+    padding: 40px;
+    border-radius: 2px;
+}
+
+.carousel p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.rating ion-icon {
+    color: #ffb944;
+    font-size: 26px;
+}
+
+.corousel-indicatiors li {
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: #1a1a1a;
+    opacity: 1;
+    width: 5%;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
 /* MediaQuery */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -189,7 +325,39 @@ p {
         font-size: 40px !important;
         line-height: normal !important;
     }
+
+    #porfolio h2 {
+        font-size: 28px;
+        margin-bottom: 0 !important;
+        font-weight: 500;
+    }
+
+    #porfolio p {
+        font-size: 15px;
+    }
+    .plan {
+        min-width: unset;
+    }
+
+    .plan ul {
+        margin: 5px 0;
+    }
+
+    .plan h2 {
+        font-size: 35px;
+        font-weight: 600px;
+    }
+
+    .plan h4 {
+        font-size: 16px;
+        margin: 0 !important;
+    }
 }
+    
+    .plan span {
+        font-size: 15px;
+    }
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
