@@ -294,6 +294,13 @@ p {
     font-size: 26px;
 }
 
+
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .corousel-indicatiors li {
     background-color: #1a1a1a;
     width: 15px;
@@ -308,6 +315,21 @@ p {
     width: 5%;
     font-size: 40px;
 }
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
 
 
 
