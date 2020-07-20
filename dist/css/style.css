@@ -108,7 +108,7 @@ p {
 /* Hero */
 
 #hero {
-    background-image: url(/dist/images/bg/hero.jpg);
+    background-image: url(/dist/images/bg/hero.jpg), url(https://i.ibb.co/tKxdwB4/hero.jpg);
     background-size: cover;
     padding-top: 190px;
     min-height: 700px;
@@ -330,12 +330,51 @@ p {
     font-size: 12px;
 }
 
+/* Contact */
+
+#contact {
+    background-color: #f5f5f5;
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    border: 1px solid #366fe9;
+    box-shadow:  rgba(17, 122, 221, 0.932);
+}
 
 
+/* Footer */
 
+#footer a {
+    color: #ffffff;
+}
 
+#footer small{ 
+    color: #ffffff;
+}
 
+#footer a:hover {
+    color: #366fe9;
+    text-decoration: none;
+}
 
+.footer-menu, .footer-social {
+    padding: 10px 15px !important;
+}
+
+.footer-social {
+    font-size: 24px;
+}
 
 
 
