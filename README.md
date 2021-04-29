@@ -1,3 +1,3 @@
 # Deveit
 
-MAquetado hecho con HTML CSS jQuery Bootstrap
+Maquetado hecho con HTML CSS jQuery Bootstrap
